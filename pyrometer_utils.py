@@ -1,3 +1,5 @@
+from daqhats import hat_list, HatError
+
 """
     Pyrometer-specific helpers for the MCC 118 DAQ scripts as well as 
     daqhat_utils from examples
@@ -43,9 +45,6 @@ def volts_to_temperature(volts):
 """
     This file contains helper functions for the MCC DAQ HAT Python examples.
 """
-from __future__ import print_function
-from daqhats import hat_list, HatError
-
 
 def select_hat_device(filter_by_id):
     # type: (HatIDs) -> int
