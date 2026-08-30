@@ -26,7 +26,6 @@
         mcc118.a_in_scan_cleanup
 
 """
-from __future__ import print_function
 from sys import stdout
 from datetime import datetime as dt, timedelta
 from threading import Thread
