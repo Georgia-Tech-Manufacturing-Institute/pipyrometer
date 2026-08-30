@@ -35,9 +35,8 @@ import logging
 import signal
 
 from daqhats import mcc118, HatIDs, HatError, OptionFlags
-from daqhats_utils import select_hat_device, chan_list_to_mask
 
-from pyrometer_utils import volts_to_temperature
+from pyrometer_utils import volts_to_temperature, select_hat_device, chan_list_to_mask
 
 # The pyrometer is wired to a single MCC 118 channel.
 PYRO_CHANNEL = 0
